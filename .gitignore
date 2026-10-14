@@ -216,5 +216,17 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Node
+node_modules/
+dist/
+
+# Secrets (never commit the real .env)
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
 # Streamlit
 .streamlit/secrets.toml
